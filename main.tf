@@ -28,8 +28,8 @@ resource "azurerm_app_service_plan" "app-plan-linux" {
   reserved            = true
 
   sku {
-    tier = "Basic"
-    size = "B1"
+    tier = "Free"
+    size = "F1"
   }
 }
 
